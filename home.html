@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achivers IT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body style="margin: 0%;padding: 0%;">
+    <Header class="nav">
+        <div class="logo">
+            <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="logo" width="100%">
+        </div>
+        <div class="menu">
+            <a href="" class="elements">All Courses</a>
+            <a href="" class="elements">Placements</a>
+            <a href="" class="elements">Internships</a>
+            <a href="" class="elements">Existing Students</a>
+            <a href="" class="elements">About Us</a>
+            <a href="" class="elements">Reviews</a>
+            <a href="" class="elements">Blog</a>
+        </div>
+    </Header>
+    <div class="banner">
+        <img src="https://t3.ftcdn.net/jpg/01/01/07/10/360_F_101071068_hcTfZpvmnCwLecbKMl3fZRNtZJOjedsB.jpg" alt="">
+    </div>
+
+<!-- banner box-->
+<section class="banner_box_section">
+        <div class="banner_box_content">
+            <div>
+                <p>BECOME A</p>
+                <p><b>UI DEVELOPER</b></p>
+            </div>
+            <div>
+                <b>Know More</b>
+            </div>
+        </div>
+
+        <div class="banner_box_content"id="box2">
+            <div>
+                <p>BECOME A</p>
+                <p><b>UI DEVELOPER</b></p>
+            </div>
+            <div>
+                <b>Know More</b>
+            </div>
+        </div>
+
+        <div class="banner_box_content">
+            <div>
+                <p>BECOME A</p>
+                <p><b>UI DEVELOPER</b></p>
+            </div>
+            <div>
+                <b>Know More</b>
+            </div>
+        </div>
+</section>
+<!-- TRENDING COURSES -->
+    <div style="margin:5% 0% 0% 10%">
+        <h1>TRENDING COURSES</h1>
+    </div>
+    <section class="trending_courses">
+        <div class="course_card">
+            <div class="angular">
+                <img src="data:image/png;base64,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" alt="">
+                <h3>ANGULAR DEVELOPMENT COURSE</h3>
+            </div>
+            <div class="course_content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+            </div>
+            <hr>
+            <div class="reviews">
+                <h4>Reviews</h4>
+                <p>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span>5.0 (257)</span>
+                </p> 
+            </div>
+        </div>
+
+
+        <div class="course_card">
+            <div class="angular" style="background:linear-gradient(to right,rgb(239, 185, 24),rgb(230, 90, 3))">
+                <img src="data:image/png;base64,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" alt="">
+                <h3>REACT DEVELOPMENT COURSE</h3>
+            </div>
+            <div class="course_content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+            </div>
+            <hr>
+            <div class="reviews">
+                <h4>Reviews</h4>
+                <p>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span>5.0 (257)</span>
+                </p> 
+            </div>
+        </div>
+
+        <div class="course_card">
+            <div class="angular" style="background: linear-gradient(to right,rgb(118, 236, 234),rgb(3, 107, 133));">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRQA4E--bqOivcFwYRksRO1a_cJ-NExAmxD06-l6DMt7nRA-qk" alt="">
+                <h3>MEAN STACK DEVELOPMENT COURSE</h3>
+            </div>
+            <div class="course_content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+            </div>
+            <hr>
+            <div class="reviews">
+                <h4>Reviews</h4>
+                <p>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span>5.0 (257)</span>
+                </p> 
+            </div>
+        </div>
+
+        <div class="course_card">
+            <div class="angular" style="background: linear-gradient(to right,rgb(156, 212, 66),rgb(238, 255, 0));">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTWHxLKJs-iUTt0kkT-5Py-boa4V1ljhSTsrVdsoWaxUC4l5KGP" alt="">
+                <h3>MERN STACK DEVELOPMENT COURSE</h3>
+            </div>
+            <div class="course_content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+            </div>
+            <hr>
+            <div class="reviews">
+                <h4>Reviews</h4>
+                <p>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span>5.0 (257)</span>
+                </p> 
+            </div>
+        </div>
+
+        <div class="course_card">
+            <div class="angular" style="background: linear-gradient(to right,rgb(17, 247, 25),rgb(56, 217, 242));">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNyU9DQ-LfXBmOTMdAy2SoY1fz8-e2GoATaVfv9rypYVzlwOdL" alt="">
+                <h3>WEB DEVELOPMENT COURSE</h3>
+            </div>
+            <div class="course_content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+            </div>
+            <hr>
+            <div class="reviews">
+                <h4>Reviews</h4>
+                <p>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span>5.0 (257)</span>
+                </p> 
+            </div>
+        </div>
+
+        <div class="course_card">
+            <div class="angular" style="background: linear-gradient(to right,rgb(18, 60, 230),rgb(0, 255, 251));">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhy8S0JHoMfqw79d6eK0awDngggYlDew1VXpYebNqWY1D6Dasx" alt="">
+                <h3>DIGITAL MARKETING COURSE</h3>
+            </div>
+            <div class="course_content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+            </div>
+            <hr>
+            <div class="reviews">
+                <h4>Reviews</h4>
+                <p>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span>5.0 (257)</span>
+                </p> 
+            </div>
+        </div>
+
+        <div class="course_card">
+            <div class="angular" style="background:linear-gradient(to right,red,yellow) ;">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEGvC27owrefzKxKXnue-76sJLgs017TbblG_YYE-0ytfIM9Aw" alt="">
+                <h3>REACT NATIVE DEVELOPMENT COURSE</h3>
+            </div>
+            <div class="course_content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+            </div>
+            <hr>
+            <div class="reviews">
+                <h4>Reviews</h4>
+                <p>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span>5.0 (257)</span>
+                </p> 
+            </div>
+        </div>
+
+
+        <div class="course_card">
+            <div class="angular" style="background:linear-gradient(to right,rgb(28, 241, 224),rgb(255, 0, 212)) ;">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRVYmPku7Y0cg3W3gdgFiDArWVDwTb0lmuvNZPLwBE3tRagaHmp" alt="">
+                <h3>IONIC DEVELOPMENT COURSE</h3>
+            </div>
+            <div class="course_content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+            </div>
+            <hr>
+            <div class="reviews">
+                <h4>Reviews</h4>
+                <p>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <span>5.0 (257)</span>
+                </p> 
+            </div>
+        </div>
+    </section>
+
+
+<div class="arrow">
+    <button><i class="fa-solid fa-arrow-up"></i></button>
+</div>
+
+<!-- RECENT ADDITIONS -->
+<div style="margin:5% 0% 0% 10%">
+    <h1>RECENT ADDITIONS</h1>
+</div>
+<section class="trending_courses">
+    <div class="course_card">
+        <div class="angular" style="background: linear-gradient(to right,rgb(18, 60, 230),rgb(0, 255, 251));">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS82UtakxJHSfWkWCFsuA5oeen81d_mm2NGtUsbbD9jYF2vov7f" alt="">
+            <h3>UI DEVELOPMENT COURSE</h3>
+        </div>
+        <div class="course_content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+        </div>
+        <hr>
+        <div class="reviews">
+            <h4>Reviews</h4>
+            <p>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <span>5.0 (257)</span>
+            </p> 
+        </div>
+    </div>
+
+    <div class="course_card">
+        <div class="angular" style="background: linear-gradient(to right,rgb(17, 247, 25),rgb(56, 217, 242));">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_ZwLweOWyGAMsx1zUrYjddV6vk1curDZi3N5SFcohfc8VkhsR" alt="">
+            <h3>VUEJS DEVELOPMENT COURSE</h3>
+        </div>
+        <div class="course_content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+        </div>
+        <hr>
+        <div class="reviews">
+            <h4>Reviews</h4>
+            <p>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <span>5.0 (257)</span>
+            </p> 
+        </div>
+    </div>
+
+    <div class="course_card">
+        <div class="angular" style="background:linear-gradient(to right,rgb(239, 185, 24),rgb(230, 90, 3))">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSmWWTuD1U7xaBvaj_GeHSURe2VtZKnVD-Txf_FEGEqVjJ-Rqk1" alt="">
+            <h3>WORDPRESS DEVELOPMENT COURSE</h3>
+        </div>
+        <div class="course_content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+        </div>
+        <hr>
+        <div class="reviews">
+            <h4>Reviews</h4>
+            <p>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <span>5.0 (257)</span>
+            </p> 
+        </div>
+    </div>
+
+    <div class="course_card">
+        <div class="angular">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQD5fTRqr0nHV9IUweEihhYRspkqd_QQ_7mrRYB3sMgyAvriR2x" alt="">
+            <h3>PYTHON DEVELOPMENT COURSE</h3>
+        </div>
+        <div class="course_content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloremque quas iste laboriosam eligendi quae, vel non facilis autem excepturi dicta odit provident ducimus accusantium?</p>
+        </div>
+        <hr>
+        <div class="reviews">
+            <h4>Reviews</h4>
+            <p>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <span>5.0 (257)</span>
+            </p> 
+        </div>
+    </div>
+</section>
+
+
+<div class="cu_right">
+    <button><b>CONTACT US</b></button>
+</div>
+
+
+<!-- DISCOVER TOP CATEGORIES -->
+<div style="margin:5% 0% 0% 10%">
+    <h1>DISCOVER TOP CATEGORIES</h1>
+</div>
+ <section class="categories">
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRC2EZT3j6xjnh4yM8xom03IIaPo4Ae6qE2VnQQImBmd9feHAKs" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">DevOps</h4>
+    </div>
+
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRh0vV66tGAY-vcAauQONso7vKUomjTFaDFoWLdFac8QMh0N44F" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Front-End</h4>
+    </div>
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCn6e_dVE1ubRYtK_9mRO2gG9uQqvdeioPqa4tJofQfXuYTOZ" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Mobile App Dev</h4>
+    </div>
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcROVhG8Ojggx2NiL1_2aD8sW_ZiuN-rVwZR_h9TI5-b3--I9NHN" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Digital Marketing</h4>
+    </div>
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3yj1ofIdjWJAGsGEjz5DqniZFX0X9JQvFW__RUHoof1wtaRxO" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Program & Frame Works</h4>
+    </div>
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4n_x7I85fa7s9-nm6NrjDIMock5KwA_zPToHdbqOYjRJg5pCS" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Data Types</h4>
+    </div>
+ </section>
+ <section class="categories">
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR05Ob58hR77UkNQeD_EP6ql6KOfJy4L53J9CcXJK-W4_QHkE-Z" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Software Testing</h4>
+    </div>
+
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-K5vHJRIJGhoq2A6pSIfBcIkrJzPIcKUUb9vyMJNtEt4CatxW" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Cloud Computing</h4>
+    </div>
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQBad1D9_IF5As21nV6mBj6H_-TAKcPVDI3ukvzR2e4z5bdh52f" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Cyber Security</h4>
+    </div>
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3QN4lnQDwhPsXO_C2X9f2s2W18WgTMlTLoH84Uht6XuqXTuik" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Artificial Intelligence</h4>
+    </div>
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOe5fN4xyQHqglkk0IWSskfaOTE6bclTLLyYNGf8LzijslmrAu" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Python</h4>
+    </div>
+
+    <div class="category_box">
+        <div class="category_img">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHOsI-oFPfzgnDA6CbDFB5nrDxm6omnJa6P0GWEoJfVF83OPHm" alt="">
+        </div>
+        <h4 style="display: flex;justify-content: center;">Big Data</h4>
+    </div>
+ </section>
+
+<!-- contact us-->
+<section class="contact_section">
+    <div class="contact_line">
+        <h1>Enroll, Learn, Grow, Repeat! Get ready to achieve your learning goals with Acheivers IT</h1>
+    </div>
+    <div class="contact_button">
+        <button><b>CONTACT US</b></button>
+    </div>
+</section>
+
+<!-- Acheivers IT Edge -->
+ <div style="margin:5% 0% 0% 5%">
+    <h1>Acheivers IT Edge</h1>
+</div>
+<section class="it_edge">
+    <div class="it_edge_box">
+        <div class="it_edge_img">
+            <img src="https://media.istockphoto.com/id/1356820159/vector/checkmark-on-a-white-background-blue-color-vector.jpg?s=612x612&w=0&k=20&c=M0TCzFHPaPS8DY6LcpPpq1h-xzRtTAVWHSeV3fZ7X0E=" alt="">
+        </div>
+        <div class="it_edge_content">
+            <b>Real Time Doubt Resolution</b>
+            <p>With Live Instructors</p>
+        </div>
+    </div>
+
+    <div class="it_edge_box">
+        <div class="it_edge_img">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYwL2Dug1YGpKH5rRH9S2xG5rRBEm_U1cqY4lFZd89UxBH-Ug4" alt="">
+        </div>
+        <div class="it_edge_content">
+            <b>Real Time Doubt Resolution</b>
+            <p>With Live Instructors</p>
+        </div>
+    </div>
+
+    <div class="it_edge_box">
+        <div class="it_edge_img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXo6EQVNtMriNr6rV6NNFV08rebQi5iyABQRDegKjBCvKWLSxU" alt="">
+        </div>
+        <div class="it_edge_content">
+            <b>Real Time Doubt Resolution</b>
+            <p>With Live Instructors</p>
+        </div>
+    </div>
+
+    <div class="it_edge_box">
+        <div class="it_edge_img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVM-LrWCSdm23ijb30KAgy_A4an1b72_svy57dSQPAv9mRB3Be" alt="">
+        </div>
+        <div class="it_edge_content">
+            <b>Real Time Doubt Resolution</b>
+            <p>With Live Instructors</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- Why We are on TOP 1 -->
+<section class="why_top_main">
+    <div class="why_toppp">
+        <div class="heading">
+            <h1>Why We are on TOP 1</h1>
+            <p>More people train with AcheiversIT because of ourcommitment to quality, Placement Support, and Real-time Training.</p>
+        </div>
+        <div class="why_top_box">
+            <div class="why_top" id="top1">
+                <h1>135 +</h1>
+                <p style="padding: 10%;">TRENDING COURSES</p>
+            </div>
+        
+            <div class="why_top" id="top2">
+                <h1>60 +</h1>
+                <p style="padding: 10%;">IT Companies are tied-UP to hire our trained students</p>
+            </div>
+        
+            <div class="why_top" id="top3">
+                <h1>25 +</h1>
+                <div style="display: flex;justify-content: center;">
+                    <p style="padding: 10%;">Students attend Interviews every day through our Placement Cell</p>
+                </div>
+            </div>
+        
+            <div class="why_top" id="top4">
+                <h1>3 +</h1>
+                <p style="padding: 10%;">Of our students Get Jobs every day in Bangalore and India</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Trainers From -->
+<div style="margin:5% 0% 0% 5%">
+    <h1>Our Trainers From</h1>
+</div>
+<section>
+    <div class="trainers">
+        <div class="trainers_img">
+            <img src="https://www.achieversit.com/assets/images/php_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/ui_Development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/angualr_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/aws_development_training.png" alt="">
+        </div>
+        <div class="trainers_img">
+            <img src="https://www.achieversit.com/assets/images/boostrap_development%20.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/react_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/software_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/software_training_courses.png" alt="">
+        </div>
+        <div class="trainers_img">
+            <img src="https://www.achieversit.com/assets/images/python_development_traning.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/web_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/angularjs_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/angular_training.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Our Corporate Clients -->
+<div style="margin:5% 0% 0% 10%">
+    <h1>Our Corporate Clients</h1>
+</div>
+<section style="margin: 3% 0 10%;">
+    <div class="clients">
+        <div class="clients_img">
+            <img src="https://www.achieversit.com/assets/images/ui_Development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/angualr_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/aws_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/php_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/boostrap_development%20.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/react_development_training.png" alt="">
+        </div>
+        <div class="clients_img">
+            <img src="https://www.achieversit.com/assets/images/software_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/software_training_courses.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/python_development_traning.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/web_development_training.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/new-cisco-logo-png-1.png" alt="">
+            <img src="https://www.achieversit.com/assets/images/angularjs_training.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="">
+                <p>Provides a wide group of opportunities for freshers and experienced candidates who can develop their skills and build their career opportunities across multiple companies.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Placements</a></li>
+                    <li><a href="#">Corporate Training</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Trending Courses</h3>
+                <ul>
+                    <li><a href="#">UI Development Course</a></li>
+                    <li><a href="#">Angular JS Course</a></li>
+                    <li><a href="#">React JS Course</a></li>
+                    <li><a href="#">Digital Marketing Course</a></li>
+                    <li><a href="#">Python Course</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h3>Contact Info</h3>
+                <p><strong>Address:</strong> #63, 1st Floor, 16th Main, 8th Cross, BTM 1st Stage, Bangalore, India - 560029</p>
+                <p><strong>Phone:</strong> +91 8431-040-457</p>
+                <p><strong>Email:</strong> info@achieversit.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 AchieversIT. All Rights Reserved</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Refund Policy</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+</footer>
+
+
+<!-- fixed footer -->
+ <section class="cu">
+        <div class="cu1">
+            <div>
+                <i class="fa-solid fa-phone" style="color: white;"></i>
+            </div>
+            <div>
+                <h1>Call us on : +91 8151000080</h1>
+            </div>
+        </div>
+        <div class="cu1">
+            <div>
+                <a href=""><i class="fa-solid fa-envelope" style="color: white;"></i></i></a>
+            </div>
+            <div>
+                <h1>Request A Call Back</h1>
+            </div>
+        </div>
+        <div class="cu1">
+            <div>
+                <a href="" ><i class="fa-brands fa-whatsapp" style="color: white;"></i></a>
+            </div>
+            <div>
+                <h1>Chat With Us</h1>
+            </div>
+        </div>
+</section>
+
+
+
+    
+</body>
+</html>
